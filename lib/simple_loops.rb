@@ -33,5 +33,5 @@ def return_string_array(array)
     newArray.push(array[counter].to_s)
     counter += 1
 end
-puts newArray
+newArray
 end
