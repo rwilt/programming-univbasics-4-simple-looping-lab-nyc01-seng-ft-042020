@@ -3,6 +3,14 @@
 The `loop_message_five_times` method has one parameter - a message string. Write
 this method so that the string parameter is output five times with `puts`.
 
+def loop_message_five_times(string)
+counter = 0
+while counter < 4
+  puts string
+  counter += 1
+end
+
+
 ### `loop_message_n_times`
 
 The `loop_message_n_times` method is similar to the previous method. However,
