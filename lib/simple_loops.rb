@@ -18,31 +18,10 @@ end
 end
 
 
-### `output_array`
-
-The `output_array` method takes one parameter, an array. This method should
-loop over the array and output each element using `puts`. For instance, if I
-had the following array:
-
-```rb
-2.6.1 :001 > quote = ["All great achievements", "require time", "- Maya Angelou"]
- => ["All great achievements", "require time", "- Maya Angelou"]
-```
-
-And I passed it into `output_array`, I should get the following:
-
-```sh
-2.6.1 :002 > output_array(quote)
-All great achievements
-require time
-- Maya Angelou
- => nil
-```
-
 def output_array(array)
 counter = 0
 while counter < array.length
-puts array[0]
+puts array[counter]
 counter += 1
 end
 end
