@@ -18,11 +18,14 @@ this method should take in _two_ parameters, a message string and an integer.
 Write this method so that the number of times the message is output is equal
 to the provided integer.
 
-def loop_message_five_times(string, int)
-int.times do
+def loop_message_n_times(string, int)
+counter = 0
+while counter < int
   puts string
+  counter +=1
 end
 end
+
 
 ### `output_array`
 
