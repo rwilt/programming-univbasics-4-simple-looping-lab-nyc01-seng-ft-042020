@@ -39,8 +39,13 @@ require time
  => nil
 ```
 
-def output_array
-
+def output_array(array)
+counter = 0
+while counter < array.length
+puts array[0]
+counter += 1
+end
+end
 
 ### `return_string_array`
 
