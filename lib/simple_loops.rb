@@ -32,3 +32,13 @@ The `return_string_array` method also takes one parameter, an array. This time
 is slightly different - instead of outputting anything, this method should
 _return_ an array. This method should loop over the provided array, convert each
 element to a string, and return the new array of strings.
+
+def return_string_array(array)
+  newArray = []
+  counter = 0
+  while counter < array.length
+    newArray.push(array[counter].to_s)
+    counter += 1
+end
+puts newArray
+end 
