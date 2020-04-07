@@ -1,8 +1,5 @@
 # Write your methods here### `loop_message_five_times`
 
-The `loop_message_five_times` method has one parameter - a message string. Write
-this method so that the string parameter is output five times with `puts`.
-
 def loop_message_five_times(string)
 counter = 0
 while counter <= 4
@@ -11,12 +8,6 @@ while counter <= 4
 end
 end
 
-### `loop_message_n_times`
-
-The `loop_message_n_times` method is similar to the previous method. However,
-this method should take in _two_ parameters, a message string and an integer.
-Write this method so that the number of times the message is output is equal
-to the provided integer.
 
 def loop_message_n_times(string, int)
 counter = 0
@@ -47,6 +38,9 @@ require time
 - Maya Angelou
  => nil
 ```
+
+def output_array
+
 
 ### `return_string_array`
 
